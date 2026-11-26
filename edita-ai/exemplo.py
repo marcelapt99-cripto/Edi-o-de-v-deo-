@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 F='/home/user/edita-ai/fontes/pk_fontsource-%s.tgz/files/%s.woff'
 pf=lambda w,i=False,s=100: ImageFont.truetype(F%('playfair-display-5.3.0','playfair-display-latin-%d-%s'%(w,'italic' if i else 'normal')),s)
 ms=lambda w,s: ImageFont.truetype(F%('montserrat-5.3.0','montserrat-latin-%d-normal'%w),s)
-FUNDO=(238,225,215); MARROM=(74,52,40); DOURADO=(196,138,58); SALMAO=(216,167,156); BR=(255,255,255)
+FUNDO=(238,225,215); MARROM=(90,53,36); DOURADO=(196,138,58); SALMAO=(216,167,156); BR=(255,255,255)
 W,H=1080,1920
 im=Image.new('RGB',(W,H),FUNDO)
 d=ImageDraw.Draw(im)
@@ -33,4 +33,4 @@ d.rounded_rectangle((130,1590,950,1790),radius=28,fill=BR,outline=(232,222,211),
 d.ellipse((190,1640,290,1740),fill=(244,232,214)); d.line((215,1692,235,1712,268,1668),fill=DOURADO,width=8,joint='curve')
 d.text((320,1650),'Bora já chamar no WhatsApp',font=pf(700,s=40),fill=MARROM)
 d.text((320,1710),'pra não ficar sem horário! · @materencelash',font=ms(500,25),fill=(140,110,95))
-im.save('/home/user/edita-ai/exemplo_estilo.png')
+im.save('/home/user/Edi-o-de-v-deo-/edita-ai/exemplo_estilo.png')
