@@ -10,3 +10,5 @@
 - Gancho: "Sobrancelhas sem volume? / Olha *a diferença*" (escolhido por ela). Cartões claros, etiquetas ANTES/DEPOIS · Brow Lamination, chamada WhatsApp no fim.
 - Transição zoom com desfoque + whoosh; pop no DEPOIS; ding na chamada. Sem trilha (ela coloca música do Instagram).
 - Status: enviado, aguardando aprovação.
+- Ela pediu transição MAIS LIMPA: sem texto no vídeo (gancho/chamada vão na legenda do Reels). Versão limpa enviada. Referência de transição: reel do Instagram (link não abre daqui) - pedido gravação de tela.
+- Ela me chama de "Claudinho".
