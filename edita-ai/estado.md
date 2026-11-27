@@ -24,3 +24,4 @@
 - Textos propostos enviados; ela não pediu mudança.
 - Story 4 pronto: 21 (1 livre), 22 e 23 ESGOTADO (carimbo), 28 (2), 29 (3), 30 (1). Horários dela são variáveis -> "horários combinados pelo WhatsApp".
 - Story 2: ela apontou que a foto é manutenção em andamento; frase precisa mudar. Opções enviadas (1 recomendada: "Repondo os fiozinhos… pra ninguém chegar capenga no Natal"). Escolhida a 1; story 2 refeito. Sequência de 5 stories completa.
+- Story 2: ela pediu menos edição -> texto simples sem fundo, off-white com sombra leve, embaixo sobre luva/cabelo; sem som; só zoom lento.

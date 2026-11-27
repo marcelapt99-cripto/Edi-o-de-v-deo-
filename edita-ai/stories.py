@@ -109,24 +109,29 @@ def story2():
     ph = ph.crop(((ph.width - W) // 2, (ph.height - H) // 2, (ph.width - W) // 2 + W, (ph.height - H) // 2 + H)).convert('RGBA')
     big = ph.resize((int(W * 1.12), int(H * 1.12)), Image.LANCZOS)
     cor = emoji('😂', 50)
+    cor = emoji('😂', 42)
     def card(d, l):
-        sombra_card(l, (110, 250, 970, 620), fill=FUNDO + (245,))
+        """Texto simples, sem fundo, sobre a parte escura (luva e cabelo), com sombra leve."""
+        f1, f2 = pf(600, True, 58), pf(500, True, 42)
+        t2 = 'pra ninguém chegar capenga no Natal'
+        w2 = d.textlength(t2, font=f2); x2 = W / 2 - (w2 + 54) / 2
+        sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ds = ImageDraw.Draw(sh)
+        ds.text((W / 2, 1685), 'Repondo os fiozinhos…', font=f1, fill=(0, 0, 0, 170), anchor='mm')
+        ds.text((x2, 1752), t2, font=f2, fill=(0, 0, 0, 170), anchor='lm')
+        l.alpha_composite(sh.filter(ImageFilter.GaussianBlur(6)), (0, 3))
         d = ImageDraw.Draw(l)
-        d.text((W / 2, 320), 'M A N U T E N Ç Ã O', font=ms(700, 28), fill=DOURADO, anchor='mm')
-        d.text((W / 2, 405), 'Repondo os fiozinhos…', font=pf(700, s=62), fill=MARROM, anchor='mm')
-        f = pf(700, True, 56)
-        d.text((W / 2, 480), 'pra ninguém chegar', font=f, fill=DOURADO, anchor='mm')
-        t = 'capenga no Natal'; w = d.textlength(t, font=f); x = W / 2 - (w + 64) / 2
-        d.text((x, 548), t, font=f, fill=DOURADO, anchor='lm'); l.alpha_composite(cor, (int(x + w + 14), 548 - cor.height // 2))
+        d.text((W / 2, 1685), 'Repondo os fiozinhos…', font=f1, fill=FUNDO, anchor='mm')
+        d.text((x2, 1752), t2, font=f2, fill=FUNDO, anchor='lm')
+        l.alpha_composite(cor, (int(x2 + w2 + 12), 1752 - cor.height // 2))
     C = layer(card)
     def fr(t):
         z = 1 + 0.12 * sm(t / 6)                     # zoom lento, centrado nos cílios
         cx, cy = 560, 850
         bw, bh = W / z, H / z; x0 = cx - bw * cx / W; y0 = cy - bh * cy / H
         im = ph.transform((W, H), Image.EXTENT, (x0, y0, x0 + bw, y0 + bh), Image.BICUBIC)
-        p = ease((t - 0.4) / 0.45); put(im, C, p, dy=-30 * (1 - p))
+        p = ease((t - 0.5) / 0.6); put(im, C, p)
         return im
-    encode('story2', fr, 6 * FPS, sfx=[('whoosh', 0.35)])
+    encode('story2', fr, 6 * FPS, sfx=[])
 
 # ---------------- STORY 3 (imagem) ----------------
 def story3():
