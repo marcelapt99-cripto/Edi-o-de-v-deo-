@@ -4,3 +4,9 @@
 - Estilo proposto: Elegante + Manchete + E-book + médio + zoom.
 - Chamada: "Bora já chamar no WhatsApp pra não ficar sem horário!"
 - Usa: queriiida, gata, depenada, capenga.
+
+## v1 · Transição antes/depois brow lamination (2026-11-27)
+- Vídeos sem fala, 4K 60fps SDR. Antes 2.0–4.5s, depois 0.2–3.6s. Total 5,9s.
+- Gancho: "Sobrancelhas sem volume? / Olha *a diferença*" (escolhido por ela). Cartões claros, etiquetas ANTES/DEPOIS · Brow Lamination, chamada WhatsApp no fim.
+- Transição zoom com desfoque + whoosh; pop no DEPOIS; ding na chamada. Sem trilha (ela coloca música do Instagram).
+- Status: enviado, aguardando aprovação.
