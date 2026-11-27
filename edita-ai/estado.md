@@ -12,3 +12,5 @@
 - Status: enviado, aguardando aprovação.
 - Ela pediu transição MAIS LIMPA: sem texto no vídeo (gancho/chamada vão na legenda do Reels). Versão limpa enviada. Referência de transição: reel do Instagram (link não abre daqui) - pedido gravação de tela.
 - Ela me chama de "Claudinho".
+- Referência vista (gravação de tela): fusão suave (dissolve ~0,5s) com o rosto no mesmo lugar; texto mínimo branco fino ("Minha sobrancelha é fina e sem volume" -> "Resolvido!").
+- Versão FUSÃO enviada: rostos alinhados pelos olhos, dissolve 0,5s, sem texto, sem efeito sonoro. 3,9s. Antes 2.0–4.17s, depois 1.33–3.57s.
