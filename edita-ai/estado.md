@@ -14,3 +14,6 @@
 - Ela me chama de "Claudinho".
 - Referência vista (gravação de tela): fusão suave (dissolve ~0,5s) com o rosto no mesmo lugar; texto mínimo branco fino ("Minha sobrancelha é fina e sem volume" -> "Resolvido!").
 - Versão FUSÃO enviada: rostos alinhados pelos olhos, dissolve 0,5s, sem texto, sem efeito sonoro. 3,9s. Antes 2.0–4.17s, depois 1.33–3.57s.
+- Pediu câmera lenta na troca (como na referência) + frase da referência com fonte/cores dela, sem atrapalhar a transição.
+- Versão PISCADA EM CÂMERA LENTA enviada: troca no piscar (antes f60 229-235 <-> depois 176-182), rampa 1x->0,5x, fusão a 0,25x, depois em 0,5x. 3,4s.
+  Texto embaixo sobre a blusa (y~1400-1470): "Minha sobrancelha é fina e sem volume" Playfair itálico off-white #EEE1D7 -> "Resolvido!" dourado claro #E8C689.
