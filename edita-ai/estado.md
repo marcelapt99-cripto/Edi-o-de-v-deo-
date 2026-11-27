@@ -18,3 +18,7 @@
 - Versão PISCADA EM CÂMERA LENTA enviada: troca no piscar (antes f60 229-235 <-> depois 176-182), rampa 1x->0,5x, fusão a 0,25x, depois em 0,5x. 3,4s.
   Texto embaixo sobre a blusa (y~1400-1470): "Minha sobrancelha é fina e sem volume" Playfair itálico off-white #EEE1D7 -> "Resolvido!" dourado claro #E8C689.
 - APROVADO ("Ficou perito!!") em 2026-11-27: versão piscada em câmera lenta. Estilo "Transição antes e depois" = fusão no piscar + câmera lenta + frase discreta embaixo (off-white -> "Resolvido!" dourado), sem cartões, sem efeitos sonoros, sem chamada no vídeo (vai na legenda do Reels).
+
+## Stories fim de ano (2026-11-27)
+- 5 stories, ela não aparece. 1 vídeo animado (pergunta dezembro + olhinho desenhado), 2 foto manutenção com zoom lento + cartão, 3 imagem "como funciona" (3 checks), 4 calendário semana Natal/Ano Novo (AGUARDANDO dias/horários e ocupados), 5 vídeo CTA WhatsApp com seta para o link.
+- Textos propostos enviados; ela não pediu mudança.
