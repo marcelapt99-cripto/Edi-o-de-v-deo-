@@ -108,14 +108,16 @@ def story2():
     s = max(W / ph.width, H / ph.height); ph = ph.resize((int(ph.width * s) + 1, int(ph.height * s) + 1), Image.LANCZOS)
     ph = ph.crop(((ph.width - W) // 2, (ph.height - H) // 2, (ph.width - W) // 2 + W, (ph.height - H) // 2 + H)).convert('RGBA')
     big = ph.resize((int(W * 1.12), int(H * 1.12)), Image.LANCZOS)
-    cor = emoji('🤎', 56)
+    cor = emoji('😂', 50)
     def card(d, l):
-        sombra_card(l, (110, 250, 970, 560), fill=FUNDO + (245,))
+        sombra_card(l, (110, 250, 970, 620), fill=FUNDO + (245,))
         d = ImageDraw.Draw(l)
         d.text((W / 2, 320), 'M A N U T E N Ç Ã O', font=ms(700, 28), fill=DOURADO, anchor='mm')
-        d.text((W / 2, 410), 'Manutenção em dia =', font=pf(700, s=60), fill=MARROM, anchor='mm')
-        f = pf(700, True, 64); t = 'cílios lindos nas festas'; w = d.textlength(t, font=f); x = W / 2 - (w + 70) / 2
-        d.text((x, 495), t, font=f, fill=DOURADO, anchor='lm'); l.alpha_composite(cor, (int(x + w + 14), 495 - cor.height // 2))
+        d.text((W / 2, 405), 'Repondo os fiozinhos…', font=pf(700, s=62), fill=MARROM, anchor='mm')
+        f = pf(700, True, 56)
+        d.text((W / 2, 480), 'pra ninguém chegar', font=f, fill=DOURADO, anchor='mm')
+        t = 'capenga no Natal'; w = d.textlength(t, font=f); x = W / 2 - (w + 64) / 2
+        d.text((x, 548), t, font=f, fill=DOURADO, anchor='lm'); l.alpha_composite(cor, (int(x + w + 14), 548 - cor.height // 2))
     C = layer(card)
     def fr(t):
         z = 1 + 0.12 * sm(t / 6)                     # zoom lento, centrado nos cílios
