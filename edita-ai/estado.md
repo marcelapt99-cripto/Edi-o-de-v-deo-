@@ -17,3 +17,4 @@
 - Pediu câmera lenta na troca (como na referência) + frase da referência com fonte/cores dela, sem atrapalhar a transição.
 - Versão PISCADA EM CÂMERA LENTA enviada: troca no piscar (antes f60 229-235 <-> depois 176-182), rampa 1x->0,5x, fusão a 0,25x, depois em 0,5x. 3,4s.
   Texto embaixo sobre a blusa (y~1400-1470): "Minha sobrancelha é fina e sem volume" Playfair itálico off-white #EEE1D7 -> "Resolvido!" dourado claro #E8C689.
+- APROVADO ("Ficou perito!!") em 2026-11-27: versão piscada em câmera lenta. Estilo "Transição antes e depois" = fusão no piscar + câmera lenta + frase discreta embaixo (off-white -> "Resolvido!" dourado), sem cartões, sem efeitos sonoros, sem chamada no vídeo (vai na legenda do Reels).
